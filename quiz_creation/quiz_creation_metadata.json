@@ -1,0 +1,19 @@
+{
+  "qwen2.5-coder:3b": {
+    "retries": 0,
+    "duration": 10
+  },
+  "deepseek-r1": {
+    "retries": 0,
+    "duration": 34
+  },
+  "gemma3": {
+    "retries": 0,
+    "duration": 59
+  },
+  "llama3.2": {
+    "retries": 2,
+    "duration": 80
+  },
+  "created": "Sun Apr 20 2025 15:15:17"
+}

@@ -1,0 +1,9 @@
+Respond with JSON only. Your reponse should be an array of strings. For each question only select one answer given to you from the choices.
+
+You are a top-notch AI.
+
+Show off your intellectual skill by answering these questions.
+
+Create a list of answers by selecting one choice for each question.
+
+{{{QUIZ-DATA}}}

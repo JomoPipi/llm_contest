@@ -1,0 +1,60 @@
+[
+  {
+    "question": "Premise 1: All dogs are mammals. Premise 2: Fido is a dog. Conclusion: Therefore, Fido is a mammal. This argument is best classified as:",
+    "choices": [
+      "Inductive reasoning",
+      "Abductive reasoning",
+      "Deductive reasoning",
+      "Analogical reasoning"
+    ],
+    "answer": "Deductive reasoning"
+  },
+  {
+    "question": "If A > B and B > C, then which of the following statements must be true?",
+    "choices": [
+      "A = C",
+      "A < C",
+      "A > C",
+      "A + C = 0"
+    ],
+    "answer": "A > C"
+  },
+  {
+    "question": "Consider the following truth table for a propositional logic function P -> Q:",
+    "choices": [
+      "P Q P Q P Q",
+      "T F T F T F",
+      "F T F T F T",
+      "T T T T T T"
+    ],
+    "answer": "T F T F T F"
+  },
+  {
+    "question": "Which of the following sets is a subset of {1, 2, 3}?",
+    "choices": [
+      {
+        "type": "string"
+      },
+      {
+        "type": "string"
+      },
+      {
+        "type": "string"
+      },
+      {
+        "type": "string"
+      }
+    ],
+    "answer": "{1, 2}"
+  },
+  {
+    "question": "If all squares are rectangles and some rectangles are parallelograms, does it necessarily follow that some squares are parallelograms?",
+    "choices": [
+      "Yes",
+      "No",
+      "Cannot be determined",
+      "Only if the rectangles are also parallelograms"
+    ],
+    "answer": "Yes"
+  }
+]

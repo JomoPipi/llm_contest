@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Given that p→q is an implication statement, in which case is it false?",
+    "choices": [
+      "When p is true and q is true",
+      "When p is true and q is false",
+      "When p is false and q is true",
+      "When p is false and q is false"
+    ],
+    "answer": "When p is true and q is false"
+  },
+  {
+    "question": "What is the result of {1,2} ∪ {3,4}?",
+    "choices": [
+      "{1,2}",
+      "{1,2,3,4}",
+      "{3,4}",
+      "{1,2,3,4,5}"
+    ],
+    "answer": "{1,2,3,4}"
+  },
+  {
+    "question": "If all dogs bark and Fido is a dog, then which statement must be true?",
+    "choices": [
+      "Fido does not bark",
+      "All barks are dogs",
+      "Fido barks",
+      "Dogs do not bark"
+    ],
+    "answer": "Fido barks"
+  },
+  {
+    "question": "How many times does the loop run if i starts at 3 and increments by 1 each time, stopping when i >5?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "3"
+  },
+  {
+    "question": "What is the next number in the sequence: -78, -68, -58, -48, ...?",
+    "choices": [
+      "-38",
+      "-28",
+      "-18",
+      "-8"
+    ],
+    "answer": "-38"
+  }
+]

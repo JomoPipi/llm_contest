@@ -1,0 +1,50 @@
+[
+  {
+    "question": "What is the result of evaluating the logical expression (P ∧ Q) ∨ ¬Q?",
+    "choices": [
+      "T",
+      "F"
+    ],
+    "answer": "T"
+  },
+  {
+    "question": "If A ⊆ B and B ⊆ C, which of the following must be true?",
+    "choices": [
+      "A ⊇ B",
+      "B ⊆ A",
+      "C ⊆ A",
+      "C ⊆ B"
+    ],
+    "answer": "A ⊇ B"
+  },
+  {
+    "question": "What is the result of evaluating the truth table for the expression (P ∨ Q) ∧ ¬R?",
+    "choices": [
+      "T T F",
+      "F F F",
+      "T F F",
+      "T F T"
+    ],
+    "answer": "F F F"
+  },
+  {
+    "question": "In a set {1, 2, 3, 4}, how many subsets contain the element 3?",
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "8"
+  },
+  {
+    "question": "Which algorithmic approach is typically used to solve the problem of finding all possible paths between two nodes in a graph?",
+    "choices": [
+      "Depth-First Search (DFS)",
+      "Breadth-First Search (BFS)",
+      "Topological Sorting",
+      "Dijkstra's Algorithm"
+    ],
+    "answer": "Breadth-First Search (BFS)"
+  }
+]

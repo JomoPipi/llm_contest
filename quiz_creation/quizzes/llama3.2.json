@@ -1,0 +1,52 @@
+[
+  {
+    "question": "A number is even if it can be divided by 2 without a remainder. Which of the following numbers is not even?",
+    "choices": [
+      "all of these are odd",
+      "only one of these is odd",
+      "two of these are odd",
+      "none of these are odd"
+    ],
+    "answer": "all of these are odd"
+  },
+  {
+    "question": "Which of the following statements is a contradiction?",
+    "choices": [
+      "A: All cats are dogs.",
+      "B: No square is a circle.",
+      "C: Every even number is greater than 5.",
+      "D: Some even numbers are odd."
+    ],
+    "answer": "D: Some even numbers are odd"
+  },
+  {
+    "question": "A rectangle has a length of 8 cm and a width of 4 cm. What is the perimeter of the rectangle?",
+    "choices": [
+      "24 cm",
+      "26 cm",
+      "28 cm",
+      "30 cm"
+    ],
+    "answer": "28 cm"
+  },
+  {
+    "question": "If it is raining, then the streets are wet. If the streets are wet, then the cars will not pass. What can be concluded from this statement?",
+    "choices": [
+      "The cars will not pass if it is raining",
+      "The cars will not pass even if it is not raining",
+      "If it is not raining, then the cars will pass",
+      "We cannot determine what to do"
+    ],
+    "answer": "The cars will not pass if it is raining"
+  },
+  {
+    "question": "A set of numbers contains only odd and even numbers. Which of the following sets is valid?",
+    "choices": [
+      "{1, 2}",
+      "{3, 4}",
+      "{5, 6}",
+      "{7, 8}"
+    ],
+    "answer": "{5, 6}"
+  }
+]
