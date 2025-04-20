@@ -1,0 +1,49 @@
+```json
+{
+  "type": "object",
+  "properties": {
+    "questions": [
+      {
+        "question": "How many songs did The Beatles record in total throughout their career?",
+        "accepted_answers": ["90"]
+      },
+      {
+        "question": "What is the approximate percentage of Brazil's land covered by rainforests?",
+        "accepted_answers": ["50%"]
+      },
+      {
+        "question": "How many planets are there in our solar system according to modern science?",
+        "accepted_answers": ["8"]
+      },
+      {
+        "question": "Which mathematician is known for Euler's formula, which relates the complex exponential function to sine and cosine?",
+        "accepted_answers": ["Leonhard Euler"]
+      },
+      {
+        "question": "When was the microwave oven invented?",
+        "accepted_answers": ["20th century (1946)"]
+      },
+      {
+        "question": "Hindi is considered a member of which language family?",
+        "accepted_answers": ["Indo-Aryan"]
+      },
+      {
+        "question": "Which Apollo mission was the first to land on the Moon?",
+        "accepted_answers": ["Apollo 11"]
+      },
+      {
+        "question": "What psychological effect demonstrates that word recognition can be slower than physical object recognition?",
+        "accepted_answers": ["Stroop effect"]
+      },
+      {
+        "question": "What is the second most abundant element in the universe after Hydrogen?",
+        "accepted_answers": ["Helium"]
+      },
+      {
+        "question": "What was the first direct image of a black hole captured by humans?",
+        "accepted_answers": ["Event Horizon Telescope Collaboration (2019)"]
+      }
+    ]
+  }
+}
+```

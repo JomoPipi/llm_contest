@@ -1,0 +1,193 @@
+[
+  {
+    "question": "If A is true and B is false, which of the following expressions evaluates to false?",
+    "choices": [
+      "A. A AND B",
+      "B. A OR B",
+      "C. NOT A",
+      "D. NOT B"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which number comes next in the sequence: 2, 4, 6, 8, 10?",
+    "choices": [
+      "A. 12",
+      "B. 11",
+      "C. 10",
+      "D. 9"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "If all dogs are mammals and all mammals are animals, then which statement is true?",
+    "choices": [
+      "A. All animals are mammals.",
+      "B. All mammals are dogs.",
+      "C. Some animals are not mammals.",
+      "D. No animals are mammals."
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "What is the value of 3 + 4 * 2?",
+    "choices": [
+      "A. 14",
+      "B. 10",
+      "C. 7",
+      "D. 5"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which shape has exactly three sides?",
+    "choices": [
+      "A. Circle",
+      "B. Square",
+      "C. Triangle",
+      "D. Pentagon"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "If x is an even number, then which expression must be odd?",
+    "choices": [
+      "A. x + 1",
+      "B. x - 2",
+      "C. 2x",
+      "D. x/2"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the next letter in this sequence: A, E, I, O?",
+    "choices": [
+      "A. P",
+      "B. Q",
+      "C. R",
+      "D. S"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "If it is raining, then the ground will be wet. It is raining. Which conclusion follows?",
+    "choices": [
+      "A. The ground is not wet.",
+      "B. The ground is wet.",
+      "C. It will start raining again.",
+      "D. The sun is shining."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the next number in this pattern: 3, 6, 12, 24?",
+    "choices": [
+      "A. 36",
+      "B. 30",
+      "C. 28",
+      "D. 26"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which of the following is not a prime number?",
+    "choices": [
+      "A. 5",
+      "B. 7",
+      "C. 9",
+      "D. 11"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "If all birds have feathers, and penguins are birds, then which statement is true?",
+    "choices": [
+      "A. Penguins do not have feathers.",
+      "B. Penguins do not fly.",
+      "C. All animals with feathers are birds.",
+      "D. Penguins can swim better than eagles."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the value of 2^3 * 4 / 8?",
+    "choices": [
+      "A. 1",
+      "B. 2",
+      "C. 4",
+      "D. 8"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which letter comes next in this sequence: H, E, L, P, O?",
+    "choices": [
+      "A. Q",
+      "B. R",
+      "C. S",
+      "D. T"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "If x is even and y is odd, then which expression must be even?",
+    "choices": [
+      "A. x + y",
+      "B. x - y",
+      "C. xy",
+      "D. x/y"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the next letter in this sequence: B, C, E, H?",
+    "choices": [
+      "A. K",
+      "B. L",
+      "C. M",
+      "D. N"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "If all humans are mortal and Socrates is a human, then which statement is true?",
+    "choices": [
+      "A. Socrates cannot be a human.",
+      "B. Socrates is mortal.",
+      "C. Socrates can fly.",
+      "D. Socrates has wings.",
+      "E. None of the above."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the value of 5 * (6 - 2) + 3?",
+    "choices": [
+      "A. 17",
+      "B. 23",
+      "C. 20",
+      "D. 25"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which shape has exactly five sides?",
+    "choices": [
+      "A. Square",
+      "B. Pentagon",
+      "C. Hexagon",
+      "D. Heptagon"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If it is sunny, then the ground will be dry. The ground is wet. Which conclusion follows?",
+    "choices": [
+      "A. It must have been raining.",
+      "B. It must not have been sunny.",
+      "C. There was a sprinkler system activated.",
+      "D. None of the above necessarily follow."
+    ],
+    "answer": "D"
+  }
+]
