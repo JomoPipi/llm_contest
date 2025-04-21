@@ -1,13 +1,14 @@
 const createQuizzesInParallel = require("./quiz_creation/createQuizzesInParallel");
 const answerQuizzesInParallel = require("./answering/answerQuizzesInParallel");
-
+const gradeQuizAnswers = require("./gradeQuizAnswers");
 function millisecondsToSeconds(ms) {
   return Math.ceil(ms / 1000);
 }
 
 const tasks = [
   // createQuizzesInParallel,
-  answerQuizzesInParallel,
+  // answerQuizzesInParallel,
+  gradeQuizAnswers,
 ];
 
 tasks.reduce((promise, task) => {

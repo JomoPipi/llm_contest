@@ -1,1 +1,21 @@
-["When p is false and q is true","{1,2}","Fido barks","4","-38","Deductive reasoning","A > C","T F T F T F","{}","No","C: Every even number is greater than 5.","28 cm","The cars will not pass if it is raining","{7, 8}","F"]
+[
+  "When p is false and q is true",
+  "{1,2}",
+  "Fido barks",
+  "4",
+  "-38",
+  "Deductive reasoning",
+  "A > C",
+  "F T F T F T",
+  "[3]",
+  "Yes",
+  "all of these are odd",
+  "B: No square is a circle.",
+  "24 cm",
+  "The cars will not pass if it is raining",
+  "{1, 2}",
+  "T",
+  "C ⊆ B",
+  "T F F",
+  "8"
+]

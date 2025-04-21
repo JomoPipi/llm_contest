@@ -6,6 +6,7 @@ const promptTemplate = fs.readFileSync(
   // "./quiz_creation/prompt.txt",
   "utf8"
 );
+const getCompositeQuiz = require("../getCompositeQuiz");
 
 const { fork } = require("child_process");
 
@@ -138,19 +139,6 @@ module.exports = async function answerQuizzesInParallel() {
 
   console.log("All quiz questions answered!");
 };
-
-function getCompositeQuiz() {
-  const quizzesDir = path.join(__dirname, "../quiz_creation/quizzes");
-  const quizFiles = fs.readdirSync(quizzesDir);
-
-  const compositeQuiz = quizFiles.reduce((allQuizzes, file) => {
-    const quizPath = path.join(quizzesDir, file);
-    const quizQuestions = JSON.parse(fs.readFileSync(quizPath, "utf8"));
-    return [...allQuizzes, ...quizQuestions];
-  }, []);
-
-  return compositeQuiz;
-}
 
 function answerQuiz(quiz, model) {
   const answer = model.answerQuiz(quiz);

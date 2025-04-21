@@ -17,7 +17,7 @@ process.on("message", (data) => {
 
     // try
     const answers = model.postProcess(output);
-    const data = JSON.stringify(answers);
+    const data = JSON.stringify(answers, null, 2);
 
     // process.send({ answers });
     try {
