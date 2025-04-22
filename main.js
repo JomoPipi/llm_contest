@@ -7,7 +7,7 @@ function millisecondsToSeconds(ms) {
 
 const tasks = [
   // createQuizzesInParallel,
-  // answerQuizzesInParallel,
+  answerQuizzesInParallel,
   gradeQuizAnswers,
 ];
 

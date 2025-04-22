@@ -14,10 +14,13 @@ module.exports = async function gradeQuizAnswers() {
         const answers = JSON.parse(
           fs.readFileSync(path.join(outputDir, `${model.name}.json`), "utf8")
         );
+        const simpleFormat = typeof answers[0] === "string";
         const totalAnswers = answers.length;
-        const correctAnswers = answers.filter(
-          (answer, i) => answer === answerKey[i]
-        );
+        const correctAnswers = simpleFormat
+          ? answers.filter((answer, i) => answer === answerKey[i])
+          : answers.filter((answer, i) => answer.answer === answerKey[i]);
+        // if (correctAnswers === "unknown")
+        //   throw `improperly formatted answer: ${answers[0]}`;
         const accuracy = correctAnswers.length / totalAnswers;
         return [model.name, accuracy];
       }),

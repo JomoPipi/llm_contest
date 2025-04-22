@@ -1,0 +1,97 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "choices": ["Paris", "London", "Berlin", "Madrid"],
+    "answer": "Paris"
+  },
+  {
+    "question": "What's the floor of the square root of 5000?",
+    "choices": ["69", "70", "71", "72"],
+    "answer": "70"
+  },
+  {
+    "question": "Given that p→q is an implication statement, in which case is it false?",
+    "choices": [
+      "When p is true and q is true",
+      "When p is true and q is false",
+      "When p is false and q is true",
+      "When p is false and q is false"
+    ],
+    "answer": "When p is true and q is false"
+  },
+  {
+    "question": "What is the result of {1,2} ∪ {3,4}?",
+    "choices": ["{1,2}", "{1,2,3,4}", "{3,4}", "{1,2,3,4,5}"],
+    "answer": "{1,2,3,4}"
+  },
+  {
+    "question": "If all dogs bark and Fido is a dog, then which statement must be true?",
+    "choices": [
+      "Fido does not bark",
+      "All barks are dogs",
+      "Fido barks",
+      "Dogs do not bark"
+    ],
+    "answer": "Fido barks"
+  },
+  {
+    "question": "What is the next number in the sequence: -78, -68, -58, -48, ...?",
+    "choices": ["-38", "-28", "-18", "-8"],
+    "answer": "-38"
+  },
+  {
+    "question": "If A > B and B > C, then which of the following statements must be true?",
+    "choices": ["A = C", "A < C", "A > C", "A + C = 0"],
+    "answer": "A > C"
+  },
+  {
+    "question": "If all squares are rectangles and some rectangles are parallelograms, does it necessarily follow that some squares are parallelograms?",
+    "choices": [
+      "Yes",
+      "No",
+      "Cannot be determined",
+      "Only if the rectangles are also parallelograms"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "question": "A rectangle has a length of 8 and a width of 4. What is the perimeter of the rectangle?",
+    "choices": ["24", "26", "28", "30"],
+    "answer": "24"
+  },
+  {
+    "question": "If it is raining, then the streets are wet. If the streets are wet, then the cars will not pass. What can be concluded from this statement?",
+    "choices": [
+      "The cars will not pass if it is raining",
+      "The cars will not pass even if it is not raining",
+      "If it is not raining, then the cars will pass",
+      "We cannot determine what to do"
+    ],
+    "answer": "The cars will not pass if it is raining"
+  },
+  {
+    "question": "In a set {1, 2, 3, 4}, how many subsets contain the element 3?",
+    "choices": ["6", "7", "8", "9"],
+    "answer": "8"
+  },
+  {
+    "question": "On a remote island, every inhabitant is either a truth-teller (always tells the truth) or a liar (always lies). You meet three individuals: Alex, Blake, and Casey.\\n  \\n  Alex says, “Blake is a liar.”\\n  \\n  Blake says, “Casey is a liar.”\\n  \\n  Casey says, “Alex and I are both truth-tellers.”\\n  \\n  Who must be the liar?",
+    "choices": ["Alex", "Blake", "Casey", "None of them"],
+    "answer": "None of them"
+  },
+  {
+    "question": "let f(x) = 2x^2 - 3 x + 4. What is the value of f(3) - f(2)?",
+    "choices": ["6", "4", "7", "-1"],
+    "answer": "7"
+  },
+  {
+    "question": "A password must meet all of the following conditions:\\n  \\n  Be at least 8 characters long\\n  \\n  Contain at least one uppercase letter\\n  \\n  Contain at least one digit\\n  \\n  Which of the following passwords is not valid?",
+    "choices": ["Go2Sleep", "Secure88", "Password", "3BlindMice"],
+    "answer": "Password"
+  },
+  {
+    "question": "Which of the following expressions are alpha-equivalent to the normal form of \\n        \\n        (λ n . n (λx.λa.λb.b) (λa.λb.a)) (λf.λx.f(f(f x)))\\n        \\n        ?",
+    "choices": ["λa.λb.a", "λx.x", "λg.λh.g", "λf.λx.f x"],
+    "answer": "λg.λh.g"
+  }
+]

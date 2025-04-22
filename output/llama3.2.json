@@ -1,21 +1,11 @@
 [
-  "When p is false and q is true",
-  "{1,2}",
+  "Paris",
+  "71",
+  "When p is false and q is false",
+  "{1,2,3,4}",
   "Fido barks",
-  "4",
-  "-38",
-  "Deductive reasoning",
+  "-8",
   "A > C",
-  "F T F T F T",
-  "[3]",
-  "Yes",
-  "all of these are odd",
-  "B: No square is a circle.",
-  "24 cm",
-  "The cars will not pass if it is raining",
-  "{1, 2}",
-  "T",
-  "C ⊆ B",
-  "T F F",
-  "8"
+  "No",
+  "30"
 ]

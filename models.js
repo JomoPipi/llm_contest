@@ -9,6 +9,8 @@ module.exports = [
     postProcess: gemma3PostProcess,
   },
   { name: "llama3.2", postProcess: gemma3PostProcess },
+  { name: "deepseek-r1:14b", postProcess: gemma3PostProcess },
+  { name: "gemma3:12B", postProcess: gemma3PostProcess },
 ];
 
 function cleanText(text) {

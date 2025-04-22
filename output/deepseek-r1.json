@@ -1,42 +1,17 @@
 [
-  {
-    "question": "Given that p→q is an implication statement, in which case is it false?",
-    "answer": "When p is true and q is false."
-  },
-  {
-    "question": "What's the result of {1,2} ∪ {3,4}?",
-    "answer": "{1,2,3,4}"
-  },
-  {
-    "question": "If all dogs bark and Fido is a dog, then which statement must be true?",
-    "answer": "Fido barks."
-  },
-  {
-    "question": "How many times does the loop run starting at 3 and incrementing by 1 until i >5?",
-    "answer": "3"
-  },
-  {
-    "question": "Next number in the sequence -78, -68, -58, -48...",
-    "answer": "-38"
-  },
-  {
-    "question": "Premises about dogs being mammals and Fido being a dog leading to Fido being a mammal. Which reasoning?",
-    "answer": "Deductive Reasoning."
-  },
-  {
-    "question": "If A > B and B > C, which statement must be true?",
-    "answer": "A > C."
-  },
-  {
-    "question": "What's the truth table result for (P ∨ Q) ∧ ¬R?",
-    "answer": "T F T"
-  },
-  {
-    "question": "In a set {1, 2, 3, 4}, how many subsets contain the element 3?",
-    "answer": "8"
-  },
-  {
-    "question": "Which algorithm finds all possible paths in a graph?",
-    "answer": "Breadth-First Search (BFS)"
-  }
+  "Paris",
+  "70",
+  "p ∧ q",
+  "{1,2,3,4}",
+  "Fido barks",
+  "-38",
+  "A > C",
+  "Some squares are parallelograms",
+  "24",
+  "Cars don't pass",
+  "8",
+  "Alex is the liar",
+  "7",
+  "Go2Sleep",
+  "Valid passwords: all meet conditions except for 'Go2Sleep' if it lacks uppercase letters."
 ]

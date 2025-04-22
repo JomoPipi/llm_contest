@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-let _quiz;
+let _quiz = JSON.parse(fs.readFileSync("custom_quiz.json", "utf8"));
 module.exports = function getCompositeQuiz() {
   if (_quiz) return _quiz;
   const quizzesDir = path.join(__dirname, "quiz_creation", "quizzes");

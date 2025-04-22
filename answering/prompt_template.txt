@@ -1,9 +1,26 @@
-Respond with JSON only. Your reponse should be an array of strings. For each question only select one answer given to you from the choices.
+Respond with JSON ONLY. Your JSON reponse should be an array of strings. For each question only select one answer given to you from the choices.
+
+Example quiz questions:
+[
+    {
+      question: "What is the result of 1 - 1?",
+      choices: ["-1", "0", "1", "2"],
+    },
+    {
+      question: "What's the square root of 4?",
+      choices: ["1","2","4","8"],
+    },
+    {
+      question: "What is the third letter of the string 'string'?",
+      choices: ["s", "t", "r", "i"],
+    }
+]
+
+Your example output:
+["0","2","r"]
 
 You are a top-notch AI.
 
-Show off your intellectual skill by answering these questions.
-
-Create a list of answers by selecting one choice for each question.
+Show off your intellectual skill by answering these questions:
 
 {{{QUIZ-DATA}}}
