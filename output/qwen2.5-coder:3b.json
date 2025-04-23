@@ -1,6 +1,6 @@
 [
   "Paris",
-  "70",
+  "71",
   "When p is true and q is false",
   "{1,2,3,4}",
   "Fido barks",
@@ -13,6 +13,5 @@
   "Alex",
   "6",
   "Secure88",
-  "λx.x",
   "λf.λx.f x"
 ]

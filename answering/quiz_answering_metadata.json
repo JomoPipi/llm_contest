@@ -1,32 +1,31 @@
 {
+  "granite3.3": {
+    "retries": 0,
+    "duration": 17
+  },
   "deepseek-r1:14b": {
     "retries": 0,
-    "duration": 217
-  },
-  "qwen2.5-coder:3b": {
-    "retries": 0,
-    "duration": 230
-  },
-  "gemma3:12B": {
-    "retries": 0,
-    "duration": 309
-  },
-  "gemma3": {
-    "retries": 0,
-    "duration": 449
-  },
-  "qwen": {
-    "retries": 3,
-    "error": "Error for Ronald: Unexpected end of JSON input",
-    "duration": 451
+    "duration": 182
   },
   "llama3.2": {
     "retries": 0,
-    "duration": 525
+    "duration": 187
+  },
+  "gemma3:12B": {
+    "retries": 0,
+    "duration": 260
+  },
+  "qwen2.5-coder:3b": {
+    "retries": 0,
+    "duration": 276
+  },
+  "gemma3": {
+    "retries": 0,
+    "duration": 510
   },
   "deepseek-r1": {
-    "retries": 2,
-    "duration": 611
+    "retries": 1,
+    "duration": 607
   },
-  "created": "Mon Apr 21 2025 17:27:59"
+  "created": "Mon Apr 21 2025 17:53:57"
 }

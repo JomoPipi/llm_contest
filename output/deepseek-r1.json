@@ -1,17 +1,135 @@
 [
-  "Paris",
-  "70",
-  "p ∧ q",
-  "{1,2,3,4}",
-  "Fido barks",
-  "-38",
-  "A > C",
-  "Some squares are parallelograms",
-  "24",
-  "Cars don't pass",
-  "8",
-  "Alex is the liar",
-  "7",
-  "Go2Sleep",
-  "Valid passwords: all meet conditions except for 'Go2Sleep' if it lacks uppercase letters."
+  {
+    "question": "What is the capital of France?",
+    "choices": [
+      "Paris",
+      "London",
+      "Berlin",
+      "Madrid"
+    ]
+  },
+  {
+    "question": "What's the floor of the square root of 5000?",
+    "choices": [
+      "70",
+      "69",
+      "71",
+      "80"
+    ]
+  },
+  {
+    "question": "When is an implication statement p→q false?",
+    "choices": [
+      "When p is true and q is true",
+      "When p is false and q is true",
+      "When p is true and q is false",
+      "When p is false and q is false"
+    ]
+  },
+  {
+    "question": "Result of {1,2} ∪ {3,4}?",
+    "choices": [
+      "{1,2,3,4}",
+      "{1,2}",
+      "{3,4}",
+      "{}"
+    ]
+  },
+  {
+    "question": "If all dogs bark and Fido is a dog, then which statement must be true?",
+    "choices": [
+      "Fido barks",
+      "All dogs bark",
+      "Some dogs don't bark",
+      "Fido doesn't bark"
+    ]
+  },
+  {
+    "question": "Next number in sequence: -78, -68, -58, -48,...?",
+    "choices": [
+      "-38",
+      "-28",
+      "-18",
+      "-48"
+    ]
+  },
+  {
+    "question": "If A > B and B > C, then which statement must be true?",
+    "choices": [
+      "A > C",
+      "B > C",
+      "A = C",
+      "A < C"
+    ]
+  },
+  {
+    "question": "Do some squares necessarily follow that they're parallelograms?",
+    "choices": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "question": "Perimeter of a rectangle with length 8 and width 4.",
+    "choices": [
+      "24",
+      "36",
+      "12",
+      "18"
+    ]
+  },
+  {
+    "question": "Conclusion from raining leading to wet streets, which leads to cars not passing.",
+    "choices": [
+      "Cars will pass regardless of rain",
+      "Cars will pass if it's raining",
+      "Cars will not pass if it's raining",
+      "Rain has no effect on car passage"
+    ]
+  },
+  {
+    "question": "Number of subsets containing 3 in {1,2,3,4}.",
+    "choices": [
+      "8",
+      "4",
+      "6",
+      "2"
+    ]
+  },
+  {
+    "question": "Liar on the remote island with their statements.",
+    "choices": [
+      "Alex is a liar",
+      "Blake is a liar",
+      "Casey is a liar",
+      "None are liars"
+    ]
+  },
+  {
+    "question": "Value of f(3) - f(2) where f(x)=2x²-3x+4.",
+    "choices": [
+      "7",
+      "-1",
+      "6",
+      "4"
+    ]
+  },
+  {
+    "question": "Which password is invalid based on conditions.",
+    "choices": [
+      "Go2Sleep",
+      "Secure88",
+      "Password",
+      "3BlindMice"
+    ]
+  },
+  {
+    "question": "Alpha-equivalent expressions to the normal form of a lambda calculus expression.",
+    "choices": [
+      "λa.λb.a",
+      "λx.x",
+      "λg.λh.g",
+      "λf.λx.f x"
+    ]
+  }
 ]

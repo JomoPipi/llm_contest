@@ -4,7 +4,7 @@
   "When p is true and q is false",
   "{1,2,3,4}",
   "Fido barks",
-  "-38",
+  "-28",
   "A > C",
   "Yes",
   "24",
@@ -12,6 +12,5 @@
   "8",
   "Casey",
   "7",
-  "Password",
-  "λa.λb.a"
+  "Password"
 ]

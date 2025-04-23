@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" aria-label="My Website">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A simple website designed for users." />
+    <meta name="keywords" content="simple, website, user-friendly" />
+    <title>My Website</title>
+    <style>
+      body {
+        background-color: #f0f0f0;
+      }
+      h1 {
+        color: #333;
+        text-align: center;
+        margin-top: 50px;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        margin: 0;
+        padding: 0;
+      }
+      nav li a {
+        text-decoration: none;
+        color: #333;
+      }
+
+      @media (max-width: 768px) {
+        nav ul {
+          display: none;
+          flex-direction: column;
+          width: 100%;
+        }
+
+        nav.active ul {
+          display: flex;
+        }
+      }
+
+      .hamburger {
+        display: none;
+        cursor: pointer;
+        margin-left: auto;
+      }
+
+      .hamburger span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: #333;
+        margin: 4px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header role="banner">
+      <h1>Welcome to My Website</h1>
+      <nav role="navigation" id="mainNav">
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleNav()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <main id="content" role="main">
+      <!-- Content goes here -->
+    </main>
+
+    <footer role="contentinfo">
+      <p>&copy; 2023 My Website. All rights reserved.</p>
+      <nav aria-label="Footer Navigation">
+        <a href="#about">About Us</a> |
+        <a href="#contact">Contact Us</a>
+      </nav>
+    </footer>
+
+    <script>
+      function toggleNav() {
+        const nav = document.getElementById("mainNav");
+        nav.classList.toggle("active");
+      }
+
+      // Add JavaScript functionality for form submission
+      document.addEventListener("DOMContentLoaded", () => {
+        const form = document.createElement("form");
+        form.innerHTML = `
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <button type="submit">Submit</button>
+      `;
+
+        document.body.appendChild(form);
+        form.addEventListener("submit", (event) => {
+          event.preventDefault();
+          alert("Form submitted!");
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,16 +1,17 @@
-module.exports = [
-  {
-    name: "deepseek-r1",
-    postProcess: deepseekR1PostProcess,
-  },
-  { name: "gemma3", postProcess: gemma3PostProcess },
+export const models = [
   {
     name: "qwen2.5-coder:3b",
     postProcess: gemma3PostProcess,
   },
-  { name: "llama3.2", postProcess: gemma3PostProcess },
-  { name: "deepseek-r1:14b", postProcess: gemma3PostProcess },
+  { name: "deepseek-r1:14b", postProcess: deepseekR1PostProcess },
+  // { name: "gemma3", postProcess: gemma3PostProcess },
+  // { name: "llama3.2", postProcess: gemma3PostProcess },
+  // {
+  //   name: "deepseek-r1",
+  //   postProcess: deepseekR1PostProcess,
+  // },
   { name: "gemma3:12B", postProcess: gemma3PostProcess },
+  { name: "granite3.3", postProcess: gemma3PostProcess },
 ];
 
 function cleanText(text) {
@@ -35,8 +36,9 @@ function access(obj, path) {
 }
 
 function gemma3PostProcess(text) {
-  const jsonOutput = grabSpanOfFirstAndLastCurlyBraces(cleanText(text));
-  return JSON.parse(jsonOutput);
+  return text;
+  // const jsonOutput = grabSpanOfFirstAndLastCurlyBraces(cleanText(text));
+  // return JSON.parse(jsonOutput);
 }
 
 function deepseekR1PostProcess(text) {
@@ -45,7 +47,8 @@ function deepseekR1PostProcess(text) {
     return text.replace(/[\s\S]*<\/think>\n?/, "").trim();
   }
   const preOutput = removeBeforeThinkEnd(text);
-  const output = grabSpanOfFirstAndLastCurlyBraces(preOutput);
-  const jsonOutput = JSON.parse(output);
-  return jsonOutput;
+  return preOutput;
+  // const output = grabSpanOfFirstAndLastCurlyBraces(preOutput);
+  // const jsonOutput = JSON.parse(output);
+  // return jsonOutput;
 }

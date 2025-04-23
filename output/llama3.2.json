@@ -1,11 +1,11 @@
 [
   "Paris",
-  "71",
+  "70",
   "When p is false and q is false",
-  "{1,2,3,4}",
+  "{3,4}",
   "Fido barks",
-  "-8",
-  "A > C",
+  "-38",
+  "A < C",
   "No",
   "30"
 ]
